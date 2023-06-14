@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center><h1 style="font-family: 'Pacifico', cursive;;">Login Form</h1></center><br>
+    <div class="login">
+    <form >
+        <label><b>Username</b></label>
+        <input type="text" name="Uname" id="Uname" placeholder="Username">
+        <br><br>
+        <label><b>E-mail</b></label><br>
+        <input type="email" name="email" id="email" placeholder="E-mail">
+        <br><br>
+        <label><b>Password</b></label>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">
+          <br><br>
+        <div class="container">
+        <center><button onclick="welcome()" class="btn">Login</button></center>
+        </div>   
+    </form>
+
+    <script>
+        function welcome() 
+          {
+               var Uname = document.getElementById("Uname").value;
+               var Pass= document.getElementById("Pass").value;
+              
+                   document.write("<h1>Welcome " + Uname +"!</h1>" )
+              
+           }
+      </script> 
+</div>
+</body>
+</html>

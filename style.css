@@ -1,0 +1,64 @@
+
+body
+{
+    background-color:rgb(150, 50, 207);
+    font-family: 'Georgia';
+}
+.login{
+        width: 350px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 300px;
+        padding: 77px;
+        background: rgb(223, 176, 22);
+        border-radius: 35px ;
+
+}
+h1{
+    text-align: center;
+    color: midnightblue;
+    padding: 20px;
+}
+label{
+    color:rgb(24, 22, 22);
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+
+}
+#email{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+
+}
+
+.container .btn {
+    
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 13px;
+    padding: 13px 17px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
